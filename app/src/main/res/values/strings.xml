@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Egida</string>
+    <!--Strings for menu-->
+    <string name="links">Мы в сети</string>
+    <string name="pick_out">Выбрать питомца</string>
+    <string name="donation">Сделать пожертвование</string>
+    <string name="need">Узнать, что нам нужно</string>
+
+    <!--Strings for donation-->
+    <string name="bank">Банковский перевод</string>
+
+    <string name="email">E-mail: veronika_khantsevich@egida.by</string>
+    <string name="phone1">+375 (29) 630-79-33 </string>
+    <string name="phone2"> +375 (29) 396-89-68</string>
+
+    <!--Strings for DogSearch-->
+    <string name="catalog"> Каталог </string>
+    <string name="dog"> Собаки </string>
+    <string name="puppy"> Щенки </string>
+    <string name="cat"> Коты </string>
+    <string name="kitten"> Котята </string>
+
+    <!--Strings for dog form-->
+    <string name="capture"> Выберите критерии </string>
+    <string name="gender"> Пол </string>
+    <string name="size"> Рост в холке </string>
+    <string name="boy"> Мальчик </string>
+    <string name="girl"> Девочка </string>
+    <string name="select"> Найти </string>
+
+    <string-array name="sizes">
+        <item>не важно</item>
+        <item>до 30 см</item>
+        <item>от 30 до 40 см</item>
+        <item>от 40 до 50 см</item>
+        <item>больше 50 см</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

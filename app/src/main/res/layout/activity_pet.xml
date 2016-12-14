@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    tools:context="com.example.makar1227.egida.menu.PetActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="@string/catalog" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/dog"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_image"
+                android:src="@drawable/shelti" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/dog" />
+
+            <ImageView
+                android:id="@+id/puppy"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_image"
+                android:src="@drawable/puppy" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/puppy" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/cat"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_image"
+                android:src="@drawable/loss" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/cat" />
+
+            <ImageView
+                android:id="@+id/kitten"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_image"
+                android:src="@drawable/kitten" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/kitten" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
